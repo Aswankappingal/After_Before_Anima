@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let a=[
+      {name:"kholi",mark:30,place:"MLP",},
+      {name:"Dhoni",mark:40,place:"Tvm",},
+      {name:"Sachin",mark:50,place:"pkd",},
+      {name:"kholi",mark:60,place:"tkd",},
+      {name:"Aswan",mark:70,place:"Ksd",},]
+
+    //   a.forEach((value,index)=>{
+    //      console.log(value.mark);
+    //      console.log(index);
+    //   })
+    // find it will find full name that kholi 
+    // let x=a.find((item)=>{
+    //    return item.name==="kholi"
+    // })
+    // console.log(x);
+
+
+
+    // fliter select multiple datas 
+    // let x=a.filter((item)=>{
+    //     return item.name==="kholi" //datatype check cheyumm===//
+    // })
+    // console.log(x);
+     x=a.find(function(any){
+         return any.name="Aswan"
+     })
+      console.log(x);
+
+
+
+
+
+    //map return way um cheyamm//
+    //  let x=a.map((item)=>{
+    //     return(item.mark);
+    // })
+    // console.log(x); //map return as a array
+    
+
+
+//    let x=a.map((item)=>{
+//     return item
+//    })
+//    console.log(x);
+
+//    let x=a.map(function(rrr){
+//     return rrr.mark
+//    })
+//    console.log(x);
+
+
+
+
+    //  a=[19,79,39,49,59]
+
+
+    // let x=a.reduce((item,val)=>{
+    //     return item+val
+
+    // },0)
+    // console.log(x);
+
+
+
+
+    </script>
+</body>
+</html>

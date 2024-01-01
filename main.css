@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Germania+One&family=Yatra+One&display=swap');
+#count{
+    /* color: white; */
+    /* border: 10px solid rgb(215, 208, 208); */
+    background-image:linear-gradient(rgba(27, 26, 26, 0.74),rgba(35, 33, 33, 0.452)),url(./img/pexels-martha-vera-4917790.jpg);
+    background-size: cover;
+    height: 180px;
+    font-weight: 600;
+    width: 60%;
+    font-size: 89px;
+    margin: auto;
+    padding: 80px 80px;
+    margin-top: 10%;
+    border-radius: 60px;
+    font-family: 'Yatra One', cursive;
+    letter-spacing: 14px;
+    color: rgb(255, 255, 255);
+    padding-top: 160px;
+}
+.verth{
+    padding-top: 1%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+    
+</head>
+<body>
+    <div class="verth">
+        <h1 id="count"></h1>
+    </div>
+    <script>
+        function Timer(){
+            let dt=new Date();
+            let hr=dt.getHours();
+            let ampm=hr<=12? " AM ":" PM ";
+            let time= addzero(hr%12)+" : "+addzero(dt.getMinutes())+" : "+addzero(dt.getSeconds())+ampm;
+            setTimeout(function(){Timer()
+            },1000)
+            document.getElementById("count").innerHTML=time
+        }
+        Timer();
+        function addzero(param){
+            return param<10?"0"+param:param;
+
+        }
+        
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            width: 100%;
+            position: relative;
+        }
+        .main img{
+            width: 100%;
+            height: 100vh;
+        }
+        .content{
+            position: absolute;
+            bottom: 30px;
+            left: 460px;
+            width: 600px;
+            color: rgb(230, 217, 217);
+        }
+        .content h2{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content p{
+            text-align: justify;
+            font-size: 20px;
+        }
+        .main::before{
+            content: '';
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            top: 0;
+            background: linear-gradient(90deg,  rgb(24, 24, 24) 0%, rgba(0, 0, 0, 0) 35%, rgba(32,33,33,1) 100%);
+        }
+        .main::after{
+            content: '';
+            width: 100%;
+            position: absolute;
+            height: 30vh;
+            background: linear-gradient(90deg, rgb(34, 34, 34) 0%, rgba(30, 28, 28, 0.258) 35%, rgba(45, 46, 46, 0.148) 100%);
+            bottom: 0;
+            left: 0;
+        }
+        
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="./img/pexels-erik-mclean-18038890.jpg" alt="">
+        <div class="content">
+            <h2>CAR WORLD</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita architecto, asperiores sed sunt quae, esse explicabo ea voluptatibus temporibus aut dolores in iusto reiciendis, est dolor? Suscipit odit eos voluptatum.</p>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+  let person={namer:"Aswan",
+       Age:"20",
+       data:function(){
+       console.log("name is  "+this.namer+"  age is  "+this.Age);
+    // console.log(this);
+       }
+    }
+    // console.log(person.data());
+    // person.data()
+   let x=person.data.bind(person)
+   x()
+//    x.call(person)
+     
+
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

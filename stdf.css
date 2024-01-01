@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Germania+One&family=Yatra+One&display=swap');
+#count{
+    /* color: white; */
+    border: 10px solid rgb(215, 208, 208);
+    background-image:url(./img/pexels-mayra-gabriel-oficial-4681654.jpg);
+    background-size: cover;
+    height: 180px;
+    font-weight: 600;
+    width: 25%;
+    font-size: 39px;
+    margin: auto;
+    padding: 80px 80px;
+    margin-top: 6%;
+    border-radius: 30px 40px;
+    font-family: 'Yatra One', sans-serif;
+    letter-spacing: 2px;
+    color: rgb(245, 245, 246);
+    padding-top: 199px;
+    padding-left: 150px;
+}
+.verth{
+    padding-top: 1%;
+}
